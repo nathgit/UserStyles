@@ -1,0 +1,48 @@
+/* ==UserStyle==
+@name           fast people search
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Bahrta
+==/UserStyle== */
+@-moz-document domain("fastpeoplesearch.com") {
+    :root {
+        --bgcolor: #909090;
+        --text-color: #FFFFFF;
+        --link: #0000ff;
+        --active-link: #00ff00;
+        --visited-link: #ff0000;
+        --link-weight: normal;
+        --link-decoration: none;
+        --active-weight: normal;
+        --active-decoration: none;
+        --visited-weight: normal;
+        --visited-decoration: none;
+        --hover-weight: bold;
+        --hover-decoration: underline;
+    }
+    body,
+    #G-6924055750274060725 .card-block {
+        background-color: var(--bgcolor);
+        color: var(--text-color);
+    }
+    a:link {
+        color: var(--link);
+        font-weight: var(--link-weight);
+        text-decoration: var(--link-decoration);
+    }
+    a:active {
+        color: var(--active-link);
+        font-weight: var(--active-weight);
+        text-decoration: var(--active-decoration);
+    }
+    a:visited {
+        color: var(--visited-link);
+        font-weight: var(--visited-weight);
+        text-decoration: var(--visited-decoration);
+    }
+    a:hover {
+        font-weight: var(--hover-weight);
+        text-decoration: var(--hover-decoration);
+    }
+}
