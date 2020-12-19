@@ -1,0 +1,13 @@
+/* ==UserStyle==
+@name           UserStyle Name
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         [Author name]
+==/UserStyle== */
+@-moz-document domain("[domain without TLD]") {
+/*code below*/
+:root{
+--sample-var:sample value;
+}
+}
